@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6i0270/v1
+canonical_location: https://kanripo.org/bkk/KR6i0270/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說如來智印經
+  identifiers:
+    alt_id:
+    - T15n0633
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0633.xml
+    old_id: T15n0633
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0270_000.yaml, hash: 'sha256:2517b1c68fde91a95ae2595cee10a8e6d9b83987084d50d0f2038d780b3925be'}
+  - {seq: 1, filename: KR6i0270_001.yaml, hash: 'sha256:bf1439adfc6c76ad1654de7c6b1fc99096aaa2d7215b4acb9e1feeff3f266798'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0270_001.markers.yaml, hash: 'sha256:a5dd6eec0ce881b1a963dfb3d335be6ca16e8c59fd1f6205f080961c638e2c32'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0270_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8065
+  label: 佛說如來智印經一卷
+  type: juan
+  level: 1
+hash: sha256:ed31fbccd06d52f15ff3d2073d4c6cff5e6f16d2925d59199b16c03921968167
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

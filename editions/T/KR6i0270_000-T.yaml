@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0270/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說如來智印經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0633.xml
+    old_id: T15n0633
+hash: sha256:2517b1c68fde91a95ae2595cee10a8e6d9b83987084d50d0f2038d780b3925be

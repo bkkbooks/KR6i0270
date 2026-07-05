@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0270_000.yaml, hash: 'sha256:2517b1c68fde91a95ae2595cee10a8e6d9b83987084d50d0f2038d780b3925be'}
-  - {seq: 1, filename: KR6i0270_001.yaml, hash: 'sha256:bf1439adfc6c76ad1654de7c6b1fc99096aaa2d7215b4acb9e1feeff3f266798'}
+  - {seq: 1, filename: KR6i0270_001.yaml, hash: 'sha256:1aec3e8c7f4d36db99836b40834f2510231875475996502e3b4cc4b64e08b62e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0270_001.markers.yaml, hash: 'sha256:a5dd6eec0ce881b1a963dfb3d335be6ca16e8c59fd1f6205f080961c638e2c32'}
+  - {seq: 0, role: markers, filename: assets/KR6i0270_000.markers.yaml, hash: 'sha256:27ed634b1871b5d98d705b4012365ff8076fd523c4eae57747c7824c3f881a80'}
+  - {seq: 1, role: markers, filename: assets/KR6i0270_001.markers.yaml, hash: 'sha256:f2dcad5b2f2dcf51547ad32418543d8a0e82273dfb8f61bd9f69d90e974ec89c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 佛說如來智印經一卷
   type: juan
   level: 1
-hash: sha256:ed31fbccd06d52f15ff3d2073d4c6cff5e6f16d2925d59199b16c03921968167
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:17a231a0d695901306aab56867333dc41ad4588d243d4b7567106b9a01c39f3c
